@@ -1,0 +1,30 @@
+    .text-field {
+        position: relative;
+        display: flex;
+    }
+    
+    .text-field label {
+        display: inline-block;
+        font-weight: 600;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        background-color: #323a46;
+        padding: 1px 5px;
+        font-size: 12px;
+        transform: translateY(-50%);
+        color: #6a5af9;
+    }
+    
+    .text-field input {
+        padding: 15px;
+        display: block;
+        width: 20%;
+        font-size: 14px;
+        border: 1px solid #6a5af9;
+        border-radius: 4px;
+        background-color: transparent;
+        text-align: center;
+        margin-left: 34%;
+    }
